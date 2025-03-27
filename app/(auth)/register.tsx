@@ -20,7 +20,7 @@ import {
     })
     const [loading, setLoading] = useState(false);
     const router = useRouter();
-    const API_URL = "http://192.168.29.59:8081";
+    const API_URL = "http://192.168.29.59:8090";
   
     const handleRegister = async () => {
       if (!details.name || !details.email || !details.password) {
